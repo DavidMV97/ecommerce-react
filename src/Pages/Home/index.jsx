@@ -1,8 +1,13 @@
 import React from 'react'
+import Layout from '../../Components/Layout'
+import Card from '../../Components/Card'
+
 
 function Home() {
   return (
-    <div>Home</div>
+    <Layout>
+      <Card></Card>
+    </Layout>
   )
 }
 
